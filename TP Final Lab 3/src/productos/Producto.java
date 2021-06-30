@@ -1,15 +1,15 @@
-package model;
+package productos;
 
 public class Producto {
 	private String nombre;
-	private int precio;///Pongo int porque hoy en dia los precios son enteros.
+	private float precio; /// cambio de int a float para que el programa pueda aceptar numeros con coma
 	private int stock;
 	
 	public Producto() {
 		
 	}
 	
-	public Producto(String nombre, int precio, int stock) {
+	public Producto(String nombre, float precio, int stock) {
 		this.nombre = nombre;
 		this.precio = precio;
 		this.stock = stock;
@@ -21,10 +21,10 @@ public class Producto {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public int getPrecio() {
+	public float getPrecio() {
 		return precio;
 	}
-	public void setPrecio(int precio) {
+	public void setPrecio(float precio) {
 		this.precio = precio;
 	}
 	public int getStock() {

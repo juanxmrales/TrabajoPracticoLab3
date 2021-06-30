@@ -1,4 +1,4 @@
-package model;
+package productos;
 
 public class Empanada extends Producto{
 	private boolean frita;// si es true es frita y es false si es al horno.

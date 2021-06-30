@@ -1,15 +1,15 @@
-package main;
-import model.Empanada;
-import model.Pizza;
-import model.Producto;
-import model.Promocion;
+package pizzzeria;
+import productos.Empanada;
+import productos.Pizza;
+import productos.Producto;
+import productos.Promocion;
 
 //Main Main Main Main
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Producto pizzaNapo = new Pizza("Pizza Napolitana", 200, 200);
+		/*Producto pizzaNapo = new Pizza("Pizza Napolitana", 200, 200);
 		Producto pizzaFugazza = new Pizza("Pizza Fugazetta", 300, 150);
 		Producto empanadaDeCarne = new Empanada("Empanada de Carne", 60, 100, true);
 		
@@ -22,7 +22,8 @@ public class Main {
 		promo1.agregarAPromo(empanadaDeCarne);;
 		
 		System.out.println(promo1);
-		
+		*/
+			
 	}
 
 }
