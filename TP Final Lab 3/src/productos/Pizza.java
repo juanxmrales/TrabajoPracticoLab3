@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class Pizza extends Producto
 {
 	
-	private ArrayList<String> ingredientes;/// me parece mejor crear un arraylist para poder contabilizar los ingredientes.
+	private ArrayList<String> ingredientes;
 	
 	public Pizza() 
 	{
 		ingredientes = new ArrayList<>();
 	}
 	
-	public Pizza(String nombre, float precio, int stock) {///Este constructor recibe por parametro un ArrayList de ingredientes previamente hecho.
+	public Pizza(String nombre, float precio, int stock)
+	{
 		super(nombre,precio,stock);
 		ingredientes = new ArrayList<>();		
 	}

@@ -12,16 +12,8 @@ public class Empanada extends Producto{
 		this.frita = esFrita;
 	}
 	
-	public String esFritaString() {
-		if(this.isFrita() == true) {
-			return "Frita";
-		}
-		else {
-			return "Al horno";
-		}
-	}
 	
-	
+
 	public boolean isFrita() {
 		return frita;
 	}
@@ -32,10 +24,11 @@ public class Empanada extends Producto{
 
 	@Override
 	public String toString() {
-		return getClass().getName() + " {\n\tesFritaString: " + esFritaString() + "\n\tgetNombre: " + getNombre()
-				+ "\n\tgetPrecio: " + getPrecio() + "\n\tgetStock: " + getStock() + "\n\ttoString: " + super.toString()
-				+ "\n}";
+		return super.toString() + "Empanada [frita=" + frita + "]";
 	}
+
+	
+	
 	
 	
 }
