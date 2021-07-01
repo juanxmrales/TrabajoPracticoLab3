@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Pizza extends Producto
 {
 	
-	private ArrayList<String> ingredientes;
+	private ArrayList<String> ingredientes;/// me parece mejor crear un arraylist para poder contabilizar los ingredientes.
 	
 	public Pizza() 
 	{
